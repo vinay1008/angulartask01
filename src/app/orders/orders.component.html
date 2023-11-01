@@ -1,0 +1,31 @@
+<h4 class="mt-5">Recent Orders</h4>
+<div class="section-table ">
+    
+    <table class="table ">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Customer</th>
+            <th scope="col">Products</th>
+            <th scope="col">Delivery Date</th>
+            <th scope="col">Status</th>
+            <th scope="col">Tracking No#</th>
+            <th scope="col">Shipping</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let order of orderlist; index as i">
+            <th scope="row">{{i+1}}</th>
+            <td>{{order.name}}</td>
+            <td>{{order.product}}</td>
+            <td>{{order.delivery_date}}</td>
+            <td>{{order.status}}</td>
+            <td>{{order.tracking_no}}</td>
+            <td>{{order.shipping}}</td>   
+            <td><i class="fa fa-times" aria-hidden="true"></i></td>   
+          </tr>
+       
+        </tbody>
+      </table>
+</div>

@@ -1,0 +1,12 @@
+.nav{
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 0 15px;
+    align-items: flex-start;
+    background-color: white;
+    &-navs{
+        height: 70px;
+        
+    }
+}

@@ -1,0 +1,16 @@
+
+<div class="data-collection d-flex" >
+    <div class="card" *ngFor="let data of datalist">
+        <div class="card-body">
+          <h5 class="card-title pb-3">{{data.value/100 | percent}}</h5>
+          <h6 class="card-subtitle  text-muted">{{data.header}}</h6>
+          <p class="card-text">{{data.sub_haeder}}</p>
+        </div>
+        <div class="icon">
+            <i class="fa fa-music fa-2x p-4" aria-hidden="true"></i>
+        </div>
+      </div>
+  
+
+    
+</div>

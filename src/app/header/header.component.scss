@@ -1,0 +1,28 @@
+
+@import "../../mixin.scss";
+
+.header1{
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    width: 1000px;
+}
+
+.icon1{
+    background-color: color(primary);
+    color: color(white);
+    height: auto;
+
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-inline{
+    width: 700px;
+}
+
+.navbar-light{
+    width: 1000px;
+}
